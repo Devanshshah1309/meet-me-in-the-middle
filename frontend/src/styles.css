@@ -1,0 +1,61 @@
+#landing {
+    margin-top: 10%;
+    width: 500px;
+}
+
+#desc {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#landing .btn:hover {
+    background-color: rgba(31, 30, 30, 0.726) !important;
+    border: solid 3px rgba(0, 0, 0, 0.158) !important;
+}
+
+#landing img {
+    height: 200px;
+    margin: 50px;
+}
+
+#search {
+    margin-top: 200px;
+}
+
+.css-1s2u09g-control {
+    margin-top: 40px !important;
+}
+
+#search .btn {
+    margin-top: 30px;
+}
+
+#preference {
+    margin-top: 70px;
+}
+
+.locations {
+    margin: 100px;
+}
+
+.project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+  }
+  
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(27, 255, 236, 0.432) !important;
+    color: white !important;
+    background-color: black !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+  }
+  
+  .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgb(0, 255, 221) !important;
+  }
