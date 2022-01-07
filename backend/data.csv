@@ -1,0 +1,121 @@
+MRT,Colour,Name,Index,Line name,Item_one,Item_two,item_three
+NS1 EW24,Red,Jurong East,0,North South,Science Centre,Snow City,Ice skating at Jcube
+NS2,Red,Bukit Batok,1,North South,Bukit Batok Neighbourhood Park,Bukit Batok Swimming Complex,Little Guilin
+NS3,Red,Bukit Gombak,2,North South,Bowling at Home Team NS,Laser tag at Home Team NS,Little Guilin
+NS4 BP1,Red,Choa Chu Kang,3,North South,Choa Chu Kang Sports Complex,Warren Golf and Country Club,Lot one Shoppers' Mall
+NS5,Red,Yew Tee,4,North South,Choa Chu Kang Sports Complex,Limbang Park,Yew Tee Point
+NS7,Red,Kranji,5,North South,Kranji Reservoir Park,Farm-hop,Hausmann Marketing Aquarium
+NS,Red,Marsiling,6,North South,Marsiling Park Lookout Tower,Ribbon Playscape,Boardwalks
+NS9 TE2,Red,Woodlands,7,North South,Woodlands Waterfront Park Jetty,Woodlands Town Park East,Fu Shan Garden Park – Dinosaur Playground
+NS10,Red,Admiralty,8,North South,Cycling,Sri SivaKrishna Temple,Old Admiralty House
+NS11,Red,Sembawang,9,North South,Sembawang Park,Sun Plaza,DUX Laser Tag
+NS12,Red,Canberra,10,North South,Canberra Park,Cycling,Sembawang Shopping Centre
+NS13,Red,Yishun,11,North South,Canopy Sky Walker,Kayaking,Paintball
+NS14,Red,Khatib,12,North South,The Live Turtle and Tortoise Museum,Katapult Trampoline Park,Red dynasty paintball park
+NS15,Red,Yio Chu Kang,13,North South,Kayaking,Yio Chu Kang Swimming Complex,Cycling
+NS16,Red,Ang Mo Kio,14,North South,Kebun Baru Bird Singing Club,Iconic Dragon Playground,Kampong Mural
+NS17 CC15,Red,Bishan,15,North South,Bishan-Ang Mo Kio Park,Kong Meng San Phor Kark See Temple,Windsor Nature Park
+NS18,Red,Braddell,16,North South,Locomole,Toa Payoh Trail,Cafes
+NS19,Red,Toa Payoh,17,North South,Jurassic Park,Toa Payoh Town Park,Lian Shan Shuang Lin Monastery
+NS20,Red,Novena,18,North South,Bukit Brown Cemetery,Church of St. Alphonsus,Sun Yat Sen Nanyang Memorial Hall
+NS21 DT11,Red,Newton,19,North South,The American Club Singapore,EGT Scooter,Que Pasa Wine Bar & Tapas
+NS22,Red,Orchard,20,North South,Emerald Hill Road,Singapore Art Museum,National Museum of Singapore
+NS23,Red,Somerset,21,North South,Macritchie Treetop,313@Somerset,Moshi Moshi Bollywood
+NS24 NE6 CC1,Red,Dhoby Ghaut,22,North South,Plaza Singapura,Istana,The Cathay Gallery
+NS25 EW13,Red,City Hall,23,North South,National Gallery Singapore,Asian Civilisations Museum,Chijmes
+NS26 EW14,Red,Raffles Place,24,North South,Singapore City Gallery,Thian Hock Keng Temple,Fuk Tak Chi Museum
+NS27 CE2,Red,Marina Bay,25,North South,Gardens by the Bay,Singapore Flyer,Marina Bay Sands
+NS28,Red,Marina South Pier,26,North South,Gardens by the Bay,Arts and Science Museum,Marina Bay Sands
+EW1,Green,Pasir Ris,27,East West,Wild Wild Wet ,Cycling at Pasir Ris Park and nature trails ,Downtown East (Theme park) 
+EW2 DT32,Green,Tampines,28,East West,Hiking and biking at Tampines Quarry ,Tampines central park (fruit themed playgrounds),Tampines Green Forest Park – high elements playground
+EW3,Green,Simei,29,East West,Paint and pottery studios at harmonicspace, Changi Airport Connector,EastPoint mall
+EW4 CG,Green,Tanah Merah,30,East West,Orchid Garden and koi pond at T2,Changi Airport Connector, NEWater Visitor Centre 
+EW5,Green,Bedok,31,East West,Skateboard at Xtreme Skate Park,Forest Adventure,Fish at Bedok Jetty
+EW6,Green,Kembangan,32,East West,Wave House Sentosa,Gorilla climbing gym,Kembangan Plaza
+EW7,Green,Eunos,33,East West,Singapore Airforce Museum,Merlion park,Live Show in Spectra
+EW8 CC9,Green,Paya Lebar,34,East West, Tipsy Bird Bar ,Sweet Hut Cafe,Paya Lebar Quarter 
+EW9,Green,Aljunied,35,East West,Tan Swie Hian Museum,Sunny Cove Dive centre ,BE:LeatherLab
+EW10,Green,Kallang,36,East West,Kallang River,Singapore Sports Hub,Old Kallang Airport
+EW11,Green,Lavender,37,East West,The Fragment Room,Airzone,Kinetics Climbing Gym
+EW12 DT14,Green,Bugis,38,East West,Bugis Junction,Fish@Bugis+, Vintage Camera Museum
+EW15,Green,Tanjong Pagar,39,East West,Littered with Books,Ann Siang Hill Park,Roof Garden at Singapore Chinese Cultural Centre
+EW16 NE3,Green,Outram Park,40,East West,Everton Park,Pearl's Hill City Park,SINGAPORE MUSICAL BOX MUSEUM
+EW17,Green,Tiong Bahru,41,East West,Tiong Bahru Market ,Cafe-hop!,Curated Records
+EW18,Green,Redhill,42,East West,ABC Market ,Redhill Market ,Mount Faber
+EW19,Green,Queenstown,43,East West,IKEA,Nightingale Thrift,Janggut Laksa in Queensway Shopping Centre 
+EW20,Green,Commonwealth,44,East West,MOE Heritage Centre (Museum),Commonwealth Crescent Market,Homemade Ice Cream
+EW21 CC22,Green,Buona Vista,45,East West,Star Vista (Concerts + Cafes),Kent Ridge Park,Bountie Arena
+EW22,Green,Dover,46,East West,Science Centre,Dover street ,Singapore Polytechnic (Cheap food) 
+EW23,Green,Clementi,47,East West,Clementi Woods Park,Night Safari,Haw Par Villa
+EW25,Green,Chinese Garden,48,East West,Running ,Chinese garden ,Main Arch Building
+EW26,Green,Lakeside,49,East West,Marina Bay Sands Skypark,Jurong Lake,Gardens By The Bay
+EW27,Green,Boon Lay,50,East West,Jurong Point Shopping Mall,Jurong Central Park,Boon Lay Hawker
+EW28,Green,Pioneer,51,East West,Yunnan Park,Jurong West Swimming Complex,Boat Tour
+EW29,Green,Joo Koon,52,East West,Singapore Discovery Centre,Army Museum,KF1 Arena Karting Circuit
+EW30,Green,Gul Circle,53,East West,Tiger Brewery Tour.,Tuas Amenity Centre,Singapore Discovery Centre
+EW31,Green,Tuas Crescent,54,East West,Maxout Hydrosports,Raffles Marina Lighthouse,Singapore Discovery Centre
+EW32,Green,Tuas West Road,55,East West,Tiger Brewery Tour ,Tuas Eating Village,Army Museum of Singapore
+EW33,Green,Tuas Link,56,East West,Marina Bistro,Raffles Marina Lighthouse,Tiger Brewery Tour
+CG1 DT35,Green,Expo,57,Changi Airport Branch,Changi City Point,Singapore Expo,Forest Trail
+CG2,Green,Changi Airport,58,Changi Airport Branch,Jewel Changi Airport,Canopy Bridge,Butteryfly Garden
+NE1 CC29,Purple,HarbourFront,59,North East,VivoCity,Gajah Gallery,Berlayer Creek Boardwalk
+NE4 DT19,Purple,Chinatown,61,North East,Buddha Tooth Relic Temple,Sri Mariamman Temple,Pinnacle@Duxton Skybridge
+NE5,Purple,Clarke Quay,62,North East,Singapore River,Asian Civilisations Museum,Statues of Sir Stamford Raffles
+NE7 DT12,Purple,Little India,63,North East,Sri Veeramakaliamman Temple,Sri Srinivasa Perumal Temple,Sakya Muni Buddha Gaya Temple
+NE8,Purple,Farrer Park,64,North East,Singapore Botanic Gardens,Tekka Centre,House of Tan Teng Niah
+NE9,Purple,Boon Keng,65,North East,Snorkleing,Lasertag,Central Sikh Gurdwara
+NE10,Purple,Potong Pasir,66,North East,Fountain of wealth,Cafes,Whampoa Dragon Fountain Statue
+NE11,Purple,Woodleigh,67,North East,Flower Dome,Butterfly Park And Insect Kingdom,The Helix Bridge
+NE12 CC13,Purple,Serangoon,68,North East,The Watch Specialist’s Clinic,Oblong Cafe,JForte Sportainment Centre
+NE13,Purple,Kovan,69,North East,Japanese Cemetery Park,Kovan 209 Market & Food Centre,Bowling
+NE14,Purple,Hougang,70,North East,Japanese Cemetery Park,Punggol Park,Church of the Nativity of the Blessed Virgin Mary
+NE15,Purple,Buangkok,71,North East,The Animal Resort,Aramsa ~ The Garden Spa,Mimosa Road Playground
+NE16 STC,Purple,Sengkang,72,North East,Sengkang Riverside Park,Sengkang Swimming Complex,Sungei Serangoon Park Connector
+NE17 PTC,Purple,Punggol,73,North East,Punggol Waterway Park,Coney Island,SAFRA punggol
+CC2,Orange,Bras Basah,74,Circle,MINT Museum of Toys,National Library,Xcape Singapore - Real Escape Rooms
+CC3,Orange,Esplanade,75,Circle,Gardens by the Bay,Esplanade Park,Esplanade Theatre
+CC4 DT15,Orange,Promenade,76,Circle,Waterfront Promenade,Skypark observation deck,Merlion Park
+CC5,Orange,Nicoll Highway,77,Circle,Waterfront Promenade,Skypark observation deck,Merlion Park
+CC6,Orange,Stadium,78,Circle,Kallang Wave mall,Rock Climbing,Flower Dome
+CC7,Orange,Mountbatten,79,Circle,Katong Swimming Complex,Sultana Bookstore,Artwalk Singapore
+CC8,Orange,Dakota,80,Circle,Goodman Arts Centre,Kallang Wave mall,Shop at Decathalon
+CC10 DT26,Orange,MacPherson,81,Circle,Church of St. Stephen,Grayson Cheng,Play Darts at D'Wolf Darts Cafe
+CC11,Orange,Tai Seng,82,Circle,Village Singapura,Tree House,Cloud Forest
+CC12,Orange,Bartley,83,Circle,Tree House,Cloud Forest,AirZone
+CC14,Orange,Lorong Chuan,84,Circle,Masjid Sultan,F1 Track: The Race Wheels,Plonk on Maju
+CC16,Orange,Marymount,85,Circle, Paintball Park,Macritchie Treetop Walk,East Lodge Trail
+CC17,Orange,Caldecott,86,Circle,Dine in the dark,National Equestrian Centre,MacRitchie Reservoir Park
+CC19 DT9,Orange,Botanic Gardens,87,Circle,Singapore Botanical Gardens,Boardwalk,Crane Forest
+CC20,Orange,Farrer Road,88,Circle,Boardwalk,Great Shelford Tree,Keppel Discovery Wetlands
+CC21,Orange,Holland Village,89,Circle,Crane Forest,Keppel Discovery Wetlands,Museum of Ice Cream
+CC23,Orange,One-north,90,Circle,Museum@My Queenstown,Fort Silso,Museum of Ice Cream
+CC24,Orange,Kent Ridge,91,Circle,Singapore Botanical Gardens,Fort Silso,Museum of Ice Cream
+CC25,Orange,Haw Par Villa,92,Circle,Museum of Ice Cream,Fort Silso,Haw Par Villa Park
+CC26,Orange,Pasir Panjang,93,Circle,Canterbury Open Field,Silso Beach,Madame Tussauds
+CC27,Orange,Labrador Park,94,Circle,Trick Eye Museum,Fort Silso,Madame Tussauds
+CC28,Orange,Telok Blangah,95,Circle,Wishing Bells,Fort Silso,Cable Car
+CE1 DT16,Orange,Bayfront,96,Circle Extension,Floral Fantasy,Supertree Observatory,Flower Dome
+DT1 BP6,Blue,Bukit Panjang,97,Downtown,Pang Sua Pond,River Wonders,River Wonders
+DT2,Blue,Cashew,98,Downtown,Lakeside Garden,River Wonders,White Rainbow Bridge
+DT3,Blue,Hillview,99,Downtown,Rail Corridor Central,Lakeside Garden,River Wonders
+DT5,Blue,Beauty World,100,Downtown,Rail Corridor Central,Lakeside Garden,Rifle Range Nature Park
+DT6,Blue,King Albert Park,101,Downtown,BFF Climb Bukit Timah,Man-made Cascading Waterfall,Rail Corridor
+DT7,Blue,Sixth Avenue,102,Downtown,Ikeda,Good Good Eating House,Gallop Stable
+DT8,Blue,Tan Kah Kee,103,Downtown,Watten Park,Duchess Park,Poh Ming Tse Temple
+DT10,Blue,Stevens,104,Downtown,The Element,Jaya Tower,Jacob Ballas Children's Garden
+DT13,Blue,Rochor,105,Downtown,Sim Lim Square,Indian Heritage Centre,SIm Lim Tower
+DT17,Blue,Downtown,106,Downtown,Wild Wild Wet,Marina Bay Link Mall,Red Dot Design Museum
+DT18,Blue,Telok Ayer,107,Downtown,Thian Hock Keng Temple,Nagore Dargah Indian Muslim Heritage Centre,Amoy Street Food Centre
+DT20,Blue,Fort Canning,108,Downtown,Sally Port,ASEAN Sculpture Garden,Archaeological Dig and Exhibition Area
+DT21,Blue,Bencoolen,109,Downtown,Lasalle College of the Arts,Albert Mall,Masjid Sultan
+DT22,Blue,Jalan Besar,110,Downtown,Mud Rock Ceramics,Jalan Basar Stadium,The Vegabound Club
+DT23,Blue,Bendemeer,111,Downtown,Central Sikh Temple,Soul Massage. Spas,Team SC Gym
+DT24,Blue,Geylang Bahru,112,Downtown,Kolan Ayer Playground,Outdoor vegetable garden,Former Queen's Theatre
+DT25,Blue,Mattar,113,Downtown,136 Hong Kong Street Fish Head Steamboat,CCK190 Wanton Mee,Spicy Thai – Thai Cafe
+DT27,Blue,Ubi,114,Downtown,Pink Blossoms Brewing,Art Retreat,Lorong Koo Chye Sheng Hong Temple
+DT28,Blue,Kaki Bukit,115,Downtown,Coffee roasting at Compound Coffee,Cedele,Kaki Bukit Neighbourhood Park
+DT29,Blue,Bedok North,116,Downtown,Bedok Mall,Xtreme Skate Park,Time Capsule
+DT30,Blue,Bedok Reservoir,117,Downtown,Cycling & Inline Skating,Aerial tree obstacle course,Fishing
+DT31,Blue,Tampines West,118,Downtown,Tampines Avenue 9's  monochrome HDB Blocks,Tampines West Community Club,Tampines Quarry
+DT33,Blue,Tampines East,119,Downtown,Tampines Changkat Butterfly Garden,Tampines Mall,Century Square
+DT34,Blue,Upper Changi,120,Downtown,Changi Museum,Changi Beach,Kinetic Rain Sculpture Experience

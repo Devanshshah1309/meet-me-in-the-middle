@@ -9,9 +9,9 @@ export default function LocationCard(props) {
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text style={{textAlign: "left"}}>
                     <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, eveniet?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, eaque!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, provident?</li>
+                        <li>{props.thing[0]}</li>
+                        <li>{props.thing[1]}</li>
+                        <li>{props.thing[2]}</li>
                     </ul>
                 </Card.Text>
             </Card.Body>
