@@ -15,7 +15,7 @@ def dijkstra(start):
     return temp
 
 def main_logic(starting_locations, tag):
-    #tag can only be one of the following: Cinema, Library, No Preference
+    #tag can only be one of the following: Cinema, Library, Museum, or No Preference
     number = len(starting_locations) #number of people
     bias = 1
     total = [0 for _ in '.'*len(mrt)] 
@@ -51,6 +51,10 @@ def main_logic(starting_locations, tag):
                         optimals[2] = [total[i], i]
                         optimals.sort()
                 elif tag == "Cinema" and cinema_scores[i] == 1:
+                    if total[i] < optimals[2][0] and (optimals[0][1] != i) and (optimals[1][1] != i):
+                        optimals[2] = [total[i], i]
+                        optimals.sort()
+                elif tag == "Museum" and museum_scores[i] == 1:
                     if total[i] < optimals[2][0] and (optimals[0][1] != i) and (optimals[1][1] != i):
                         optimals[2] = [total[i], i]
                         optimals.sort()
@@ -352,6 +356,21 @@ cinema_scores = [
     0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0
 ]
+museum_scores = [
+    1, 1, 0, 1, 0, 1, 0, 0, 0, 
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 1, 1, 1, 1, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+    0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+    0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 
+    0, 0, 0, 0, 0, 1, 1, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+    0
+]
 # test
-# print(MainLogic(['Jurong East', 'Botanic Gardens'], "Cinema"))
-# print(MainLogic(['Boon Lay', 'Punggol']))
+# print(main_logic(['Jurong East', 'Botanic Gardens'], "Cinema"))
+# print(main_logic(['Boon Lay', 'Punggol'], 'No Preference'))
