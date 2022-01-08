@@ -12,7 +12,8 @@ api = Api(app)
 pref_map = {
         1: "Cinema",
         2: "Library",
-        3: "No Preference"
+        3: "No Preference",
+        4: "Museum"
     }
 
 data = pd.read_csv("./data.csv")
