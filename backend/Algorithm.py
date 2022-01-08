@@ -1,4 +1,4 @@
-def dijkstra(start):
+def Dijkstra(start):
     start_index = mrt[start]
     temp = [inf for _ in '.'*len(mrt) ]
     temp[start_index] = 0 #distance from start to itself is 0
@@ -15,13 +15,13 @@ def dijkstra(start):
     return temp
 
 def main_logic(starting_locations, tag):
-    #tag can only be one of the following: Cinema, Library, Museum, or No Preference
+    #tag can only be one of the following: Cinema, Library, Museum,  No Preference
     number = len(starting_locations) #number of people
-    bias = 1
+    bias = 3
     total = [0 for _ in '.'*len(mrt)] 
     trial = []
     for location in starting_locations:
-        temp = dijkstra(location)
+        temp = Dijkstra(location)
         trial.append(temp)
         total = [sum(x) for x in zip(temp,total)]
 
@@ -47,23 +47,22 @@ def main_logic(starting_locations, tag):
                     break
             if flag:
                 if tag == "Library" and library_scores[i] == 1:
-                    if total[i] < optimals[2][0] and (optimals[0][1] != i) and (optimals[1][1] != i) :
+                    if total[i] + 1 < optimals[2][0] and (optimals[0][1] != i or type(optimals[0][1]) == bool) and (optimals[1][1] != i or type(optimals[1][1]) == bool) :
                         optimals[2] = [total[i], i]
                         optimals.sort()
                 elif tag == "Cinema" and cinema_scores[i] == 1:
-                    if total[i] < optimals[2][0] and (optimals[0][1] != i) and (optimals[1][1] != i):
+                    if total[i] + 1 < optimals[2][0] and (optimals[0][1] != i or type(optimals[0][1]) == bool) and (optimals[1][1] != i or type(optimals[1][1]) == bool):
                         optimals[2] = [total[i], i]
                         optimals.sort()
                 elif tag == "Museum" and museum_scores[i] == 1:
-                    if total[i] < optimals[2][0] and (optimals[0][1] != i) and (optimals[1][1] != i):
+                    if total[i] + 1 < optimals[2][0] and (optimals[0][1] != i or type(optimals[0][1]) == bool) and (optimals[1][1] != i or type(optimals[1][1]) == bool):
                         optimals[2] = [total[i], i]
                         optimals.sort()
                 elif tag == "No Preference":
-                    if total[i] < optimals[2][0] and (optimals[0][1] != i) and (optimals[1][1] != i):
+                    if total[i] + 1< optimals[2][0] and (optimals[0][1] != i or type(optimals[0][1]) == bool) and (optimals[1][1] != i or type(optimals[1][1]) == bool):
                         optimals[2] = [total[i], i]
                         optimals.sort()
         bias += 1 #if you can't find 3 places that everyone travels nearly equally, increase the tolerance amount
-
     names_of_optimals = []
     names_of_optimals.append(mrt_names[optimals[0][1]])
     names_of_optimals.append(mrt_names[optimals[1][1]])
@@ -199,8 +198,6 @@ mrt = {
 
 mrt_names = list(mrt.keys())
 mrt_indices = list(mrt.values())
-
-
 graph = {
     'Tuas Link': ['Tuas West Road'], 
     'Tuas West Road': ['Tuas Link', 'Tuas Crescent'], 
@@ -339,23 +336,23 @@ graph = {
 '''
 
 #tagging system
-library_scores = [
-    1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1,
-    0, 0, 1,1,0,1,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,1,
-    0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
-    1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-]
-cinema_scores = [
-    1,1,0,1,0,0,0,1,0,0,0,1,0,
-    0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,1,
-    0,0,1,0,0,1,0,1,1,1,0,0,1,0,0,0,
-    0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,
-    1,0,1,1,0,0,1,0,0,0,0,1,0,1,1,0,0,0,
-    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-    0,0,0
-]
+# library_scores = [
+#     1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1,
+#     0, 0, 1,1,0,1,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,1,
+#     0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+#     1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+#     1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# ]
+# cinema_scores = [
+#     1,1,0,1,0,0,0,1,0,0,0,1,0,
+#     0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,1,
+#     0,0,1,0,0,1,0,1,1,1,0,0,1,0,0,0,
+#     0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,
+#     1,0,1,1,0,0,1,0,0,0,0,1,0,1,1,0,0,0,
+#     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+#     0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+#     0,0,0
+# ]
 museum_scores = [
     1, 1, 0, 1, 0, 1, 0, 0, 0, 
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -371,6 +368,250 @@ museum_scores = [
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
     0
 ]
+#
+library_scores = [1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,  
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0]
+
+cinema_scores = [1,
+1,
+0,
+1,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+1,
+0,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+1,
+1,
+0,
+0,
+0,
+1,
+1,
+0,
+0,
+1,
+0,
+0,
+1,
+0,
+1,
+1,
+1,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+0,
+1,
+0,
+1,
+1,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0]
+
 # test
-# print(main_logic(['Jurong East', 'Botanic Gardens'], "Cinema"))
-# print(main_logic(['Boon Lay', 'Punggol'], 'No Preference'))
+# print(main_logic(['Jurong East', 'Punggol'], "Museum"))
+# print(MainLogic(['Boon Lay', 'Punggol']))
+
