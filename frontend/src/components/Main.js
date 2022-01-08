@@ -177,6 +177,7 @@ export default function Main() {
                 options={mrtOptions} 
                 onChange={setInput}
                 placeholder="Select starting points..."
+                blurInputOnSelect={true}
                 isMulti/>
             </div>
             <div id = "preference">
@@ -186,10 +187,11 @@ export default function Main() {
                 options={preferenceOptions} 
                 onChange={setPref}
                 placeholder="Select preference..."
+                blurInputOnSelect={true}
                 />
             </div>
             
-            <Button onClick={handleCompute}> Compute results</Button>
+            <Button onClick={handleCompute}> Find us a place!</Button>
         </Container>
         {(output != null) ? <Locations locList={output}/> : null}
         </Container>
