@@ -1,4 +1,4 @@
-# hnr2022
+# Hack&Roll 2022 Project
 
 ## Inspiration
 
